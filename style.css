@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+box-sizing: 0;
+margin: 0;
+}
+.Big-container{
+    margin: auto;
+    display: flex;
+    /* gap: 40px; */
+    border-radius: 50px;
+    /* background-color: purple; */
+    justify-content: center;
+    width: 60rem;
+    height: 24rem;
+  
+}
+.first-container{
+     background-color: hsl(31, 77%, 52%);
+     border-radius: 7px 0px 0px 7px;
+     padding: 20px;
+}
+.second-container{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+.third-container{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px;
+    padding: 20px;
+}
+h2{
+    color: white;
+    margin-top: 25px;
+    font-family: cars;
+}
+article{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 40px;
+}
+button{
+    border-radius: 30px;
+    height: 50px;
+    width: 120px;
+    border-color: hsl(0, 0%, 95%);
+    margin-top: 50px;
+}
+.one{
+  color: hsl(31, 77%, 52%);  
+}
+.two{
+  color: hsl(184, 100%, 22%);
+}
+.three{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
